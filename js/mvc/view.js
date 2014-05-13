@@ -26,18 +26,18 @@ jQuery.extend({
 		/**
 		 * set up the buttons to load data
 		 */
-		$console.append($("<input type='button' value='Load All'></input>").click(function(){
-			that.notifyAllClicked();
-		}));
-		$console.append($("<input type='button' value='Load One'></input>").click(function(){
-			that.notifyOneClicked();
-		}));
-		$console.append($("<input type='button' value='Clear Cache'></input>").click(function(){
-			that.notifyClearAllClicked();
-		}));
-		$console.append($("<input type='button' value='Clear Console'></input><br><br>").click(function(){
-			$messages.empty();
-		}));
+		// $console.append($("<input type='button' value='Load All'></input>").click(function(){
+		// 	that.notifyAllClicked();
+		// }));
+		// $console.append($("<input type='button' value='Load One'></input>").click(function(){
+		// 	that.notifyOneClicked();
+		// }));
+		// $console.append($("<input type='button' value='Clear Cache'></input>").click(function(){
+		// 	that.notifyClearAllClicked();
+		// }));
+		// $console.append($("<input type='button' value='Clear Console'></input><br><br>").click(function(){
+		// 	$messages.empty();
+		// }));
 		$console.append($messages);
 		
 		
